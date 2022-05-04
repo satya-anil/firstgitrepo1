@@ -20,4 +20,7 @@ line3
 line33
 line44
 line55
+//practising how to resolve merge conflicts
+//practise 1
+
 
