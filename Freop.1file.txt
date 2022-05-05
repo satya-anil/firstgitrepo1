@@ -2,10 +2,14 @@
 #include<conio.h>
 void main()
 {
-int a,b,c;
+int a=1,b=2,c;
+c=a+b;
 {
 printf("enter three numbers");
 scanf("%d%d%d &a,&b,&c");
 }
 }
 getch();
+//practising example2 for merge conflicts
+//done
+//keep going
