@@ -9,7 +9,7 @@ printf("enter three numbers");
 scanf("%d%d%d &a,&b,&c");
 }
 }
+a=b+C;
 getch();
-//practising example2 for merge conflicts
 //done
 //keep going
