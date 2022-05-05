@@ -2,10 +2,11 @@
 #include<conio.h>
 void main()
 {
-int a,b;
+int a=1, b=2;
 {
 printf("enter two numbers");
 scanf("%d%d &a,&b");
 }
 }
 getch();
+//keep going
