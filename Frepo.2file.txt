@@ -1,6 +1,7 @@
 class PalindromeExample{  
  public static void main(String args[]){  
-  int r,sum=0,mul=0,temp;    
+  int r,sum=0,temp;
+  int j,mul=0,num;    
   int n=454;//It is the number variable to be checked for palindrome  
   
   temp=n;    
@@ -14,5 +15,15 @@ class PalindromeExample{
    System.out.println("palindrome number ");    
   else    
    System.out.println("not palindrome");    
-}  
-}  
+  temp=i;    
+  while(i>0){    
+   j=i%10;  //getting remainder  
+   mul=(mul*10)+j;    
+   i=i/10;    
+  } 
+ if(num==mul)    
+   System.out.println("palindrome number ");    
+  else    
+   System.out.println("not palindrome");
+}
+}    
