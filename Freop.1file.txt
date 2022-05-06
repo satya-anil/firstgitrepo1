@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
+#include<math.h>
 void main()
 {
 int a=1, b=2;
@@ -12,5 +13,6 @@ printf("enter two numbers");
 scanf("%d%d &a,&b");
 }
 }
+result c;
 getch();
 //keep going
